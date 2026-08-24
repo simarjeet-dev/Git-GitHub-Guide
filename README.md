@@ -76,16 +76,21 @@ git branch [branch-name]    # create a new branch at the current commit
 git checkout [branch]       # switch to another branch
 git merge [branch]          # merge specified branch into current branch
 git log                     # show commit history for current branch
+git branch -d [branch]      # delete a branch (safe — won't delete if not fully merged)
+git branch -D [branch]      # force delete a branch
 ```
 
 ### 2.5 Share & Update
 
 ```bash
 git remote add [alias] [url]   # add a Git URL as a named remote
+git remote -v                  # show configured remotes with their URLs
 git fetch [alias]              # download all branches from a remote, no merge
+git fetch --all --prune        # fetch updates from all remotes, remove deleted remote branches
 git merge [alias]/[branch]     # merge a fetched remote branch into current branch
 git push [alias] [branch]      # push local commits to remote branch
 git pull                       # fetch and merge from the tracked remote branch
+git branch -a                  # list all branches including remote branches
 ```
 
 ### 2.6 Tracking Path Changes
