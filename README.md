@@ -1,8 +1,6 @@
-# Macnaught Shopify Development — Git & GitHub Guide
+# Shopify Development — Git & GitHub Guide
 
 Internal reference for Git and GitHub workflows used by the Macnaught Group Shopify development team (LockNLube, STM, and other brand storefronts). This repo consolidates cheat sheets, SSH setup, repository workflows, and the team's branching SOP into one place so nobody has to dig through scattered PDFs to remember a command.
-
-📄 A fully formatted Word version of this guide (with cover page and page numbers) is available at [`docs/Macnaught_Git_GitHub_Consolidated_Guide.docx`](./docs/Macnaught_Git_GitHub_Consolidated_Guide.docx).
 
 ## Table of Contents
 
